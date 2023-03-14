@@ -7,10 +7,6 @@ import com.example.geektrust.exceptions.InvalidInputException;
 
 public class ApartmentService {
 
-    private ApartmentService() {
-
-    }
-
     public static void determineWaterConsumedInRatio(String[] apartmentInput, BillSumm billSummary) {
 
         String apartmentType = getApartmentType(apartmentInput);

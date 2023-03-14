@@ -14,11 +14,8 @@ public class WaterManagementApplication {
         List<String> inputs = new ArrayList<>();
         try {
             // the file to be opened for reading
-//            FileInputStream fis = new FileInputStream(args[0]);
-            FileInputStream fis = new FileInputStream("sample_input/input1.txt");
-
+            FileInputStream fis = new FileInputStream(args[0]);
             Scanner sc = new Scanner(fis); // file to be scanned
-            // returns true if there is another line to read
             while (sc.hasNextLine()) {
                 String inputLine = sc.nextLine();
                 if (!inputLine.isEmpty())

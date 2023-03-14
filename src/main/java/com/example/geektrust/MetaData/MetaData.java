@@ -14,9 +14,6 @@ public class MetaData {
     private static WaterRates corportationWaterRate;
     private static WaterRates tankerWaterRate;
 
-    private MetaData(){
-
-    }
 
     public static void loadMetaData() {
         setApartments();
